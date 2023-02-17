@@ -1,0 +1,41 @@
+.text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: javan !important;
+}
+
+.text h1 {
+  font-size: 4rem;
+  color: crimson;
+}
+.text h2 {
+  font-size: 3rem;
+  color: #d4c9cd;
+}
+.text h3 {
+  font-size: 2rem;
+}
+
+@media (max-width: 750px) {
+  .text h1 {
+    font-size: 3rem;
+  }
+  .text h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .text h1 {
+    font-size: 2rem;
+  }
+  .text h2 {
+    font-size: 1rem;
+  }
+  .text h3 {
+    font-size: 1rem;
+  }
+}

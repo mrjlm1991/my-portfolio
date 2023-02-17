@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "YekanBakh";
+  src: url("/YekanBakh.eotf");
+  src: url("/../assets/fonts/YekanBakh.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/YekanBakh.woff2") format("woff2"),
+    url("../assets/fonts/YekanBakh.woff") format("woff"),
+    url("../assets/fonts/YekanBakh.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "javan";
+  src: url("/Javan.eotf");
+  src: url("/../assets/fonts/Javan.eot?#iefix") format("embedded-opentype"),
+    url("../assets/fonts/Javan.woff2") format("woff2"),
+    url("../assets/fonts/Javan.woff") format("woff"),
+    url("../assets/fonts/Javan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("/Roboto-Regular.eot");
+  src: url("/../assets/fonts/Roboto-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Roboto-Regular.woff") format("woff"),
+    url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.MuiCard-root::-webkit-scrollbar {
+  display: none;
+}
+.MuiGrid2-root::-webkit-scrollbar {
+  display: none;
+}
